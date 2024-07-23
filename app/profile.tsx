@@ -11,7 +11,12 @@ export default function Profile() {
       }}
     >
       <Text>Profile Page</Text>
-      <Link href={'/404'} style={{color: 'navy', textDecorationLine: 'underline'}}>404</Link>
+      <Link
+        href={"/404"}
+        style={{ color: "navy", textDecorationLine: "underline" }}
+      >
+        404
+      </Link>
     </View>
   );
 }
