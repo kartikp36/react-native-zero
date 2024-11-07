@@ -4,6 +4,7 @@ import 'react-native-url-polyfill/auto';
 import { SplashScreen, Stack } from 'expo-router';
 
 import GlobalProvider from '../context/GlobalProvider';
+import React from 'react';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
